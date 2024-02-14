@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт для Дня Святого Валентина</title>
+    <link rel="stylesheet" href="css/styles.css"> <!-- Підключення CSS -->
+    <script src="js/scripts.js"></script> <!-- Підключення JavaScript -->
+</head>
+<body>
+<audio id="audioPlayer">
+    <source src="mus/music.mp3" type="audio/mpeg">
+</audio>
+    <header>
+        <h1>З днем святого Валентина!</h1>
+        <button onclick="playAudio()">❤️</button>
+    </header>
+    <main>
+        <div id="content">
+            <img id="gif" src="img/1.jpg" alt="Картинка">
+            <div id="phrases">
+                <p id="phrase">Вибери мене!</p>
+            </div>
+                <div id="buttons">
+                    <button id="yesButton" onclick="changeYes()">ТАК!</button>
+                    <button id="noButton" onclick="changeNo()">Бубубу</button>
+                </div>
+        </div>
+    </main>
+    <footer>
+        <p>©Андрій</p>
+    </footer>
+
+
+</body>
+</html>

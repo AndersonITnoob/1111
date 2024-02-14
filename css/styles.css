@@ -1,0 +1,68 @@
+body {
+    font-family: 'Hitch Hike', cursive; /* Застосування шрифту Hitch Hike */
+    background-color: #ffc0cb;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header, footer {
+    background-color: #ff69b4;
+    padding: 20px 0;
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+#content {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gif {
+    width: auto; /* Автоматична ширина для збереження пропорцій */
+    height: 300px; /* Фіксована висота фото */
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#phrases {
+    margin-top: 20px;
+}
+
+#buttons {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #ff0000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #d60000;
+}
+
+footer {
+    background-color: #ff69b4;
+    padding: 10px 0;
+    color: white;
+}
+
+/* Сховати кнопку */
+.hidden {
+    display: none;
+}
